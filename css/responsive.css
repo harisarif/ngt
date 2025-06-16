@@ -1,0 +1,247 @@
+@media (min-width: 991px) and (max-width: 1200px) {
+    .hero {
+        & h1 {
+            font-size: 46.46px;
+            line-height: 59.65px;
+        }
+
+        .explore-contant-btns-wrappper {
+            padding-top: 10px;
+        }
+
+        .hero-description {
+            margin: 10px 0 !important;
+        }
+
+        .preview-images {
+            margin-top: 30px;
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    header {
+        /* background-color: transparent; */
+        margin-top: 0;
+        padding: 0;
+backdrop-filter: none !important;   
+        .web-nav {
+            display: none !important;
+        }
+
+        .mobile-nav {
+            display: block;
+        }
+    }
+
+    .hero-images {
+        padding: 20px 12px !important;
+
+        .upper-image {
+            justify-content: center;
+            display: flex;
+        }
+
+        .bottom-images {
+            justify-content: center;
+        }
+    }
+
+
+    .hero {
+        padding: 4rem 0 60px !important;
+        & h1 {
+            font-size: 32px;
+            line-height: 45px;
+            text-align: center;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            text-align: center;
+        }
+
+
+
+        & .explore-contant-btns-wrappper {
+            justify-content: center;
+
+            .export-btn {
+                padding: 13px 15px;
+            }
+
+            .contact-us-btn {
+                padding: 13px 20px;
+            }
+        }
+
+        & .preview-images {
+            justify-content: center !important;
+            gap: 10px;
+
+            .next-btn {
+                width: 80px;
+                height: 80px;
+                padding: 23px 20px;
+                & img{
+                    width: 45px;
+                }
+            }
+
+        }
+
+
+
+    }
+
+    .about-us-section {
+        padding-top: 0 !important;
+
+        .about-us-title-main {
+            display: flex;
+
+            .section-title {
+
+                margin: 0 auto;
+                padding: 0 20px 20px;
+            }
+        }
+
+        .about-us-description {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    .our-offers {
+        .section-title {
+            font-size: 45px;
+            margin-top: 0 !important;
+        }
+
+        .offers-content {
+            .inner-wrapper {
+                margin: 0 !important;
+            }
+        }
+
+        .even {
+            flex-direction: column-reverse;
+        }
+
+        .img-wrapper {
+            & img {
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .clients-section {
+        .section-title {
+            font-size: 30px;
+        }
+    }
+
+    .talk-now-section {
+        padding: 4rem 0 !important;
+
+        & h3 {
+            font-size: 35px;
+        }
+
+        & p {
+            font-size: 20px;
+        }
+    }
+
+    .faq-section {
+        .section-title {
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center;
+        }
+    }
+
+    .submit-form-section {
+        padding-bottom: 4rem !important;
+        text-align: center;
+
+        .section-title {
+            font-size: 33px;
+        }
+
+        .btn-wrapper {
+            align-items: center !important;
+            text-align: center !important;
+            margin-top: 3.5rem;
+        }
+    }
+
+    footer {
+        .left-col {
+            .footer-email-input {
+
+                padding: 1rem 0 5px !important;
+                margin-bottom: 20px;
+            }
+        }
+
+        .inner-wrapper {
+            .footer-ul {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    .even {
+        /* flex-direction: column-reverse; */
+        flex-direction: row !important;
+    }
+
+    footer {
+        .footer-ul {
+            display: block !important;
+        }
+    }
+}
+@media (max-width: 550px){
+    footer {
+    & .inner-wrapper {
+        & .footer-ul {
+            & li {
+                & a { 
+                    padding: 6px 11px; 
+                }
+            }
+        }
+    }
+}
+}
+@media (max-width: 376px) {
+
+    .hero {
+        & .explore-contant-btns-wrappper {
+            .export-btn {
+                padding: 13px 10px;
+            }
+
+            .contact-us-btn {
+                padding: 13px 15px;
+            }
+        }
+    }
+
+    footer {
+        .inner-wrapper {
+            .footer-ul {
+                display: flex;
+                gap: 3px;
+            }
+        }
+    }
+}
