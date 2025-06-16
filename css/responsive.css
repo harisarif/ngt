@@ -228,10 +228,13 @@ backdrop-filter: none !important;
         & .explore-contant-btns-wrappper {
             .export-btn {
                 padding: 13px 10px;
+                width: 100%;
             }
 
             .contact-us-btn {
+                margin-top: 10px;
                 padding: 13px 15px;
+                width: 100%;
             }
         }
     }
@@ -243,5 +246,8 @@ backdrop-filter: none !important;
                 gap: 3px;
             }
         }
+    }
+    .explore-contant-btns-wrappper {
+        display: block;
     }
 }
