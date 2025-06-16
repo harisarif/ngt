@@ -239,7 +239,7 @@ backdrop-filter: none !important;
     footer {
         .inner-wrapper {
             .footer-ul {
-                display: flex;
+                display: block;
                 gap: 3px;
             }
         }
